@@ -176,6 +176,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           ccChat
         </div>
+        
         <div className={styles["sidebar-sub-title"]}>
 
           your own AI assistant.(now support gpt-4o,gpt4o-mini,gpt-o1,gpt-oi-mini)
