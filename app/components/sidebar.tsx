@@ -171,20 +171,18 @@ export function SideBar(props: { className?: string }) {
         // #3016 disable transition on ios mobile screen
         transition: isMobileScreen && isIOSMobile ? "none" : undefined,
       }}
-      
+    >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ccChat
+          kyChat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-
-          your own AI assistant.(now support gpt-4o,gpt4o-mini,gpt-o1,gpt-oi-mini)
+          Build your own AI assistant.(4o,o1,o1-mini,4o-mini)
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
       </div>
-      
 
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
